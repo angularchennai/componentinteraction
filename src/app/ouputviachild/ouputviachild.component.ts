@@ -7,7 +7,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class OuputviachildComponent implements OnInit {
 
-  message: string = "Hola Mundo!"
+  message: string = "click from child"
   @Output() messageEvent = new EventEmitter<string>();  
   constructor() { }
 

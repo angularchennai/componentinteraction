@@ -16,7 +16,7 @@ export class SubjectviasiblingComponent implements OnInit {
   }
 
   newMessage() {
-    this.data.changeMessage("Hello from Sibling")
+    this.data.changeMessage("i have changed the value")
   }
 
 }

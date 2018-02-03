@@ -15,7 +15,9 @@ import { SubjectviaparentComponent } from './subjectviaparent/subjectviaparent.c
 
 
 import {DataService} from './data.service';
-import { SubjectviasiblingComponent } from './subjectviasibling/subjectviasibling.component'
+import { SubjectviasiblingComponent } from './subjectviasibling/subjectviasibling.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { CreateComponent } from './create/create.component'
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { SubjectviasiblingComponent } from './subjectviasibling/subjectviasiblin
     OuputviachildComponent,
     SubjectviachildComponent,
     SubjectviaparentComponent,
-    SubjectviasiblingComponent
+    SubjectviasiblingComponent,
+    LifecycleComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule
